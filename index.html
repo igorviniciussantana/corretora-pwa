@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>JC Construtora</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/png" />
+    <meta name="description" content="JC Construtora - Orçamentos" />
+    <link rel="apple-touch-icon" href="images/icon-256.png" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="shortcut icon" href="images/icon-256.png" type="image/png">
+    <!--viewport para designers responsivos (mobo), content é a configuração-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#1a1535" />
+</head>
+<body>
+    <h1 class="title">JC Corretora</h1>
+
+
+    <label for="terreno">
+        
+<h1>Terreno(m2)</h1>
+<input type="text" name="terreno" placeholder="000 m2" id="terreno">
+
+
+    </label>
+
+    <label for="construcao">
+        
+        <h1>Construção(m2)</h1>
+        <input type="text" name="construcao" placeholder="000 m2" id="construcao">
+        
+        
+            </label>
+
+            <button onclick="calc()">Calcular</button>
+
+
+<div class="resultado">
+<h1>Total da Propriedade</h1>
+<span class="totalValue">0</span>
+</div>
+<div class="resultado">
+    <h1>Porcentagem</h1>
+<span class="porcentagemValue">0</span>
+</div>
+<div class="resultado">
+    <h1>Total com Decréscimo</h1>
+<span class="clienteValue">0</span>
+</div>
+
+<script src="js/main.js"></script>
+
+</body>
+</html>

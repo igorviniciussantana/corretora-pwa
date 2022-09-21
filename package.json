@@ -1,0 +1,15 @@
+{
+  "name": "avaliacao",
+  "version": "1.0.0",
+  "description": "Avaliação de Programação para Dispositivos Móveis",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "serve ."
+  },
+  "author": "Igor",
+  "license": "ISC",
+  "dependencies": {
+    "serve": "^14.0.1"
+  }
+}
